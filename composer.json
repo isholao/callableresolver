@@ -1,0 +1,31 @@
+{
+    "name": "isholao/callableresolver",
+    "type": "library",
+    "description": "PHP callable resolver",
+    "homepage": "https://github.com/isholao/callableresolver",
+    "keywords": ["callable", "callableresolver"],
+    "license": "BSD-3-Clause",
+    "authors": [
+        {
+            "name": "Ishola O",
+            "email": "ishola.tolu@outlook.com",
+            "role": "Developer"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "Isholao\\CallableResolver\\": "src/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Isholao\\CallableResolver\\Tests\\": "tests/"
+        }
+    },
+    "require": {
+        "php": ">=7.1.0"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "v6.4"
+    }
+}
